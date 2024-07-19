@@ -39,7 +39,7 @@
 &none          &kp Q   &kp W   &kp E   &kp R   &kp T   &kp GRAVE                                                          &none              &kp Y   &kp U     &kp I      &kp O    &kp P      &none
 &kp BACKSLASH  &kp A   &kp S   &kp D   &kp F   &kp G   &kp LEFT_BRACKET  &none           &none        &none    &none      &kp RIGHT_BRACKET  &kp H   &kp J     &kp K      &kp L    &kp SEMI   &kp SQT
 &kp MINUS      &kp Z   &kp X   &kp C   &kp V   &kp B                                     &kp ESC      &kp TAB                                &kp N   &kp M     &kp COMMA  &kp DOT  &kp FSLH   &kp EQUAL
-&kp CAPSLOCK   &none   &none   &none   &none           &kp BSPC          &kp LEFT_SHIFT  &none        &none    &kp ENTER  &kp SPACE                  &kp LEFT  &kp DOWN   &kp UP   &kp RIGHT  &none
+&kp CAPSLOCK   &none   &none   &none   &none           &kp BSPC          &kp LEFT_SHIFT  &mo 2        &mo 2    &kp ENTER  &kp SPACE                  &kp LEFT  &kp DOWN   &kp UP   &kp RIGHT  &none
             >;
         };
 
@@ -50,6 +50,16 @@
 &none    &none   &none   &none   &none   &none   &none  &none  &none      &none  &none  &none  &none   &none       &none              &none            &none       &none
 &none    &none   &none   &none   &none   &none                 &none      &none                &none   &none       &none              &none            &none       &kp C_PLAY_PAUSE
 &none    &none   &none   &none   &none           &none  &none  &none      &none  &none  &none          &kp C_PREV  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT  &none
+            >;
+        };
+
+        num {
+            bindings = <
+&trans  &trans        &trans        &trans        &trans        &trans        &trans                                      &trans  &trans        &trans        &trans        &trans        &trans        &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &trans                                      &trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
+&trans  &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans      &trans  &trans  &trans  &trans        &trans        &trans        &trans        &trans        &trans
+&trans  &trans        &trans        &trans        &trans        &trans                        &trans      &trans                  &trans        &trans        &trans        &trans        &trans        &trans
+&trans  &trans        &trans        &trans        &trans                      &trans  &trans  &trans      &trans  &trans  &trans                &trans        &trans        &trans        &trans        &trans
             >;
         };
     };
